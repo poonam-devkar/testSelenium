@@ -18,6 +18,7 @@ public class TestSelenium {
 	driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']")).click();
    
 	Thread.sleep(2000);
+	System.out.println("hello world");
 	
 	WebElement more = driver.findElement(By.xpath("//div[text()='More']"));
 	
